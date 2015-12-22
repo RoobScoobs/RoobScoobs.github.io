@@ -1,12 +1,36 @@
 body {
-	background-color: #91A8D0;
+	background-color: #FFFFFF;
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 24px;
+	font-color: #5CB3FF;
+	border-style: solid;
+	border-top-width: 1px;
+ 	border-bottom-width: 1px;
+ 	border-left-width: 1px;
+ 	border-right-width: 1px;
+ 	text-align: center;
+ 	padding-top: 100px;
+ 	padding-bottom: 20px;
+ 	font-variant: small-caps;
+ 	font-family: Verdana;
+ 	letter-spacing: 5px;
+
 }
 
-h1, h2 {
-	font: Verdana;
-	color: white;
+h2 {
+	font-family: Arial;
+	font-size: 18px;
+	margin-top: 80px;
+	margin-left: 50px;
 }
+
+p { 
+	font: Arial;
+	margin-left: 50px;
+	margin-right: 200px;
+	margin-top: 50px; 
+
+
+	}
