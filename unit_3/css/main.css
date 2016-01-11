@@ -1,0 +1,41 @@
+body {
+	background-image: url ("../images/251h.jpg");
+	text-align: center;
+	font-family: Geneva;
+
+
+}
+
+#header {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	font-size: 11px;
+	margin-bottom: 300px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+h2 {
+	font-size: 56px;
+}
+
+p {
+	font-size: 22px;
+	
+}
+
+h3 {
+	border: 2px solid #000;
+	font-weight: lighter; 
+	margin: 30px 800px 0;
+
+}
