@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-image: url("../images/251h.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 15px; 
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+
+}
+
+section {
+	text-align: center;
+}
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	font-variant: small-caps;
+	word-spacing: 8px;
+	padding: 200px 0 100px;
+}
+
+
+
+
+#fleuve {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 72px;
+
+}
+
+#fleuve h2 a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+#para {
+	font-size: 32px;
+	width: 700px;
+	margin: auto;
+	padding: 50px;
+	line-height: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+
+}
+
+#button {
+	border: 2px solid #000;
+	margin: auto;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+
+}
+
+#button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#button:hover {
+	background-color: #fff;
+
+}
+
+#button:hover a {
+	color: #000;
+}
+
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 200px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+
+}
