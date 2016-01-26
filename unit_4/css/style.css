@@ -17,7 +17,7 @@ section#splash {
 	height:90vh;
 }
 
-header {
+header#quote {
 	background-color: #000;
 	color: #fff;
 	font-size: 1.25em;
