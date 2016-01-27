@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;	
+}
+section#splash {
+	background-image: url("../images/251h.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:90vh;
+	text-align: center;
+}
+
+header#quote {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.25em;
+	padding: 1em; 
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 2px;
+
+}
+
+#presents {
+	font-weight: 300;
+	font-size: 2em;
+	font-variant: small-caps;
+	word-spacing: 8px;
+	padding: 200px 0 100px;
+}
+
+#fleuve {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 4.5em;
+
+}
+
+#fleuve a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+#para {
+	font-size: 2em;
+	width: 22em;
+	margin:1.5em auto;
+	line-height: 1.5em;
+	font-weight: 300;
+
+}
+
+#button {
+	display:block;
+	border: 2px solid #000;
+	margin: auto;
+	width: 300px;
+	padding: 1.5em 0;
+	font-weight: 200;
+	text-decoration: none;
+	color: #fff;
+}
+
+#button:hover {
+	background-color: #fff;
+
+}
+
+#button:hover {
+	color: #000;
+}
+
+div.wrapper {
+	margin: 15em 0 3em;
+}
+
+header#vcu {
+	text-align: center;
+	background: #F8B801;
+    color: #fff;
+}
+
+header#vcu h2 {
+	font-size: 3.5em;
+	padding: 1em 0;
+}
+
+li {
+	display: inline;
+}
+
+section#story {
+	padding: 4em;
+}
+
+section#story h3 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+p.prompt {
+	margin: 1.5em 0;
+}
+
+p {
+	line-height: 1.5em;
+
+}
+
+br {
+	line-height: 2em;
+}
+
+span.italics {
+	letter-spacing: .05em;
+	font-style: italic;
+}
+
+footer {
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 200px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+
+}
