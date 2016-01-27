@@ -14,7 +14,7 @@ section#splash {
 	background-image: url("../images/251h.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:90vh;
+	height:100%;
 	text-align: center;
 }
 
@@ -80,13 +80,13 @@ header#quote {
 }
 
 div.wrapper {
-	margin: 15em 0 3em;
+
 }
 
 header#vcu {
-	text-align: center;
 	background: #F8B801;
     color: #fff;
+    text-align: center;
 }
 
 header#vcu h2 {
@@ -96,23 +96,33 @@ header#vcu h2 {
 
 li {
 	display: inline;
+	font-variant: small-caps;
+	font-size: 1.2em;
+}
+
+li.space {
+	margin: 0 1em;
 }
 
 section#story {
-	padding: 4em;
+	width: 35em;
+	margin: auto;
 }
 
 section#story h3 {
-	font-size: 2em;
-	margin-bottom: 1em;
+	font-size: 2.5em;
+	margin: 2em 0 1.5em;
+
 }
 
 p.prompt {
 	margin: 1.5em 0;
+	font-size: 1.3em;
 }
 
-p {
+p.answer {
 	line-height: 1.5em;
+	margin: 1.5em 0;
 
 }
 
