@@ -94,9 +94,6 @@ header#quote {
 }
 
 
-div.wrapper {
-
-}
 
 header#vcu {
 	background: #F8B801;
@@ -149,6 +146,9 @@ span.italics {
 	letter-spacing: .05em;
 	font-style: italic;
 }
+
+
+
 
 footer {
 	font-weight: 300;

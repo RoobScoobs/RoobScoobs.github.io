@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-size:16px;
+	background-color: #eee;
+}
+
+section#vcu-application {
+	width: 100%;
+}
+
+nav a {
+	float: left;
+	width: 33.33%;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+	padding: 4.5em;
+	border: 1px solid #000;
+}
+
+nav a:hover {
+	background-color: #000;
+	color: #F8B801;
+}
+
+h2 {
+	font-size: 3.5em;
+	padding: 1em 0;
+	color: #000;
+	text-align: center;
+	background-color: #F8B801;
+}
+
+footer {
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 200px;
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+
+}
