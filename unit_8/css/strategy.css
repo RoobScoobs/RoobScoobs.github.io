@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-size:16px;	
+	background-color: #F1F3F2;
+}
+
+div.wrapper {
+	position: relative;
+	width: 90%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+header {
+	top: 0;
+	padding: 1em 1em;
+	position: fixed;
+	background: #FFC126;
+}
+
+a.move-right {
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+	margin: 0 0.8em 0;
+}
+
+a#homepage {
+	margin-right: 26em;
+	font-size: 2em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+div#side-bar {
+	margin-top: 5.3em;
+	background-color: #fff;
+	width: 20%;
+	float: left;
+	position: fixed;
+}
+
+ a.track {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000;
+ 	padding: 1em;
+}
+
+div#article-container {
+	float: right;
+	width: 80%;
+	margin-top: 5em;
+}
+
+div#circle {
+	width: 23.5em;
+	height: 23.5em;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #000;
+	position: fixed;
+	top: 345px;
+    right: -8%;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: #F1F3F2;
+	height: 100%;
+	margin: 2.5em 1em;
+}
+
+article {
+	width: 60%;
+	margin-left: 7em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 1.5em 0;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+ol {
+	padding: 1.5em;
+}
+
+li {
+
+}
+
+a.external {
+	text-decoration: none;
+	background-color: #fff;
+	color: #000;
+}
+br {
+	line-height: 2.5em;
+}

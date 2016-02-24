@@ -31,7 +31,7 @@ nav a {
 	font-size: .8em;
 	text-decoration: none;
 	color: #000;
-	margin: 0 1em 0;
+	margin: 0 .5em 0;
 }
 
 a#homepage {
@@ -40,34 +40,16 @@ a#homepage {
 	font-weight: 700;
 }
 
-section {
-	position: relative;
+div#side-bar {
+	margin-top: 10em;
+	background-color: #fff;
+	width: 20%;
 }
 
-h3 {
-	color: #F1F3F2;
-	display: block;
-	padding: 2.6em 0 0 0.8em;
-	font-size: 3.5em;
-	font-weight: 700;
-	line-height: 100%;
-
+ a.track {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000;
+ 	padding: 1em;
 }
-
-div#circle {
-	width: 23.5em;
-	height: 23.5em;
-	border-radius: 50%;
-	overflow: hidden;
-	background-color: #000;
-	position: fixed;
-	top: 345px;
-    right: -8%;
-}
-
-
-div#vid {
-	margin: 10em 0 0 3em;
-}
-
 

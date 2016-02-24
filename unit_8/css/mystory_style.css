@@ -14,29 +14,31 @@ body {
 
 header {
 	top: 0;
-	padding: 15px 0;
+	padding: 1em 1em;
 	position: fixed;
 	background: #FFC126;
 	width: 90%;
 	max-width: 1280px;
 }
 
-nav a {
+a.move-right {
 	font-size: .8em;
 	text-decoration: none;
 	color: #000;
-	margin: 0 1em 0;
+	margin: 0 0.8em 0;
 }
 
 a#homepage {
-	margin: 0 26em 0 1em;
+	margin-right: 26em;
 	font-size: 2em;
 	font-weight: 700;
+	text-decoration: none;
+	color: #000;
 }
 
 section.prompt_answer {
 	margin: 1em 0;
-	width: 30em;
+	width: 42%;
 	float: left;
 }
 
@@ -78,11 +80,12 @@ br{
 
 div#wrapper {
 	margin: 10em 0 0 -1.2em;
-	width: 60em;
+	width: 100%;
 }
 
 div#pagewrap{
 	width: 90%;
+	max-width: 1280px;
 	margin: auto;
 	position: relative;
 }
@@ -94,4 +97,15 @@ div#pagewrap{
 	content: "?";
 	display: block;
 	clear: both;
+}
+
+@media screen only and (max-width: 1270px) {
+	section.promptanswer{
+		float: none;
+		width: 100%;
+		margin: auto;
+
+
+
+	}
 }
