@@ -25,20 +25,35 @@ header {
 	position: fixed;
 	background: #FFC126;
 	width: 90%;
-	max-width: 1280px;
 }
 
-a.move-right {
+a#left {
+	float: left;
+	width: 60%;
+	font-size: 2em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+a#middle {
+	float: left;
+	width: 20%;
+	text-align: right;
+	margin-top: 1.5em;
+    padding: 0 2em;
 	font-size: .8em;
 	text-decoration: none;
 	color: #000;
-	margin: 0 0.8em 0;
 }
 
-a#homepage {
-	margin-right: 26em;
-	font-size: 2em;
-	font-weight: 700;
+a#right {
+	float:left;
+	width: 20%;
+	text-align: center;
+    margin-top: 1.5em;
+    padding: 0 2em;
+	font-size: .8em;
 	text-decoration: none;
 	color: #000;
 }
@@ -47,8 +62,8 @@ section {
 	position: relative;
 }
 
-h3 {
-	color: #F1F3F2;
+h1 {
+	color: #FFC126;
 	display: block;
 	padding: 2.6em 0 0 0.8em;
 	font-size: 3.5em;
@@ -68,9 +83,19 @@ div#circle {
     right: -8%;
 }
 
-
 div#vid {
 	margin: 10em 0 0 3em;
 }
 
+.clearfix:after {
+	height:0;
+	font-size:0;
+	visibility: hidden;
+	content: "?";
+	display: block;
+	clear: both;
+}
 
+@media only screen and (max-width: 1225px) {
+
+}

@@ -21,17 +21,33 @@ header {
 	max-width: 1280px;
 }
 
-a.move-right {
+a#left {
+	float: left;
+	width: 60%;
+	font-size: 2em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+a#middle {
+	float: left;
+	width: 20%;
+	text-align: right;
+	margin-top: 1.5em;
+    padding: 0 2em;
 	font-size: .8em;
 	text-decoration: none;
 	color: #000;
-	margin: 0 0.8em 0;
 }
 
-a#homepage {
-	margin-right: 26em;
-	font-size: 2em;
-	font-weight: 700;
+a#right {
+	float:left;
+	width: 20%;
+	text-align: center;
+    margin-top: 1.5em;
+    padding: 0 2em;
+	font-size: .8em;
 	text-decoration: none;
 	color: #000;
 }
@@ -67,7 +83,7 @@ div#circle {
 
 h1 {
 	font-size: 4.5em;
-    color: #F1F3F2;
+    color: #FFC126;
     height: 100%;
     margin: 1.2em 1em 0em 1em;
     line-height: 100%;
@@ -99,13 +115,33 @@ div#pagewrap{
 	clear: both;
 }
 
-@media screen only and (max-width: 1270px) {
-	section.promptanswer{
+@media only screen and (max-width: 1200px) {
+	section.prompt_answer {
 		float: none;
-		width: 100%;
-		margin: auto;
-
-
-
+		width: 70%;
 	}
+}
+@media only screen and (max-width: 865px) {
+	a#left {
+		width:40%;
+	}
+	a#middle {
+		width:30%;
+	}
+	a#right {
+		width: 30%;
+	}
+	div#circle {
+		width: 20em;
+		height: 20em;
+		top: 60%;
+	    left: 70%;
+	}
+	h1{
+		font-size: 3.2em;
+		margin: 1.7em 2.1em 0 1.2em;
+	}
+}
+@media only screen and (max-width: 665px) {
+	
 }

@@ -26,17 +26,33 @@ header {
 	background: #FFC126;
 }
 
-a.move-right {
+a#left {
+	float: left;
+	width: 60%;
+	font-size: 2em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+a#middle {
+	float: left;
+	width: 20%;
+	text-align: right;
+	margin-top: 1.5em;
+    padding: 0 2em;
 	font-size: .8em;
 	text-decoration: none;
 	color: #000;
-	margin: 0 0.8em 0;
 }
 
-a#homepage {
-	margin-right: 26em;
-	font-size: 2em;
-	font-weight: 700;
+a#right {
+	float:left;
+	width: 20%;
+	text-align: center;
+    margin-top: 1.5em;
+    padding: 0 2em;
+	font-size: .8em;
 	text-decoration: none;
 	color: #000;
 }
@@ -75,7 +91,7 @@ div#circle {
 
 h1 {
 	font-size: 3.5em;
-	color: #F1F3F2;
+	color: #FFC126;
 	height: 100%;
 	margin: 2.5em 1em;
 }
@@ -109,4 +125,13 @@ a.external {
 }
 br {
 	line-height: 2.5em;
+}
+
+.clearfix:after {
+	height:0;
+	font-size:0;
+	visibility: hidden;
+	content: "?";
+	display: block;
+	clear: both;
 }
