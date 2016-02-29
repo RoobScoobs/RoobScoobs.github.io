@@ -76,7 +76,7 @@ div#circle {
 	overflow: hidden;
 	background-color: #000;
 	position: fixed;
-	top: 345px;
+	top: 55%;
     right: -8%;
 
 }
@@ -122,26 +122,112 @@ div#pagewrap{
 	}
 }
 @media only screen and (max-width: 865px) {
+	div#wrapper {
+		padding-top: 20em;
+}
+	section.prompt_answer {
+		width: 65%;
+    	margin: 0 auto;
+	}
+
 	a#left {
 		width:40%;
 	}
 	a#middle {
+		font-size: 1em;
+		margin-top: 1em;
+		padding: 0;
 		width:30%;
 	}
 	a#right {
+		font-size: 1em;
+		margin-top: 1em;
+		padding: 0;
 		width: 30%;
 	}
 	div#circle {
+		position: absolute;
+		top: -2em;
+		left: 50%;
+		transform: translateX(-50%);
 		width: 20em;
 		height: 20em;
-		top: 60%;
-	    left: 70%;
+		z-index: -1;
 	}
 	h1{
-		font-size: 3.2em;
-		margin: 1.7em 2.1em 0 1.2em;
+		font-size: 3.5em;
+	    margin: 1.5em;
+	    text-align: center;
 	}
+}	h3{
+		margin: 0;
+		padding: 1em;
+		font-size: 1.5em;
 }
+	p {
+		padding: 1em;
+		font-size: 1.2em;
+	}
 @media only screen and (max-width: 665px) {
-	
+	div#wrapper {
+		padding-top: 25em;
+		margin: 10em auto;
+	}
+
+	div#circle {
+		top: 7em;
+	}
+	section.prompt_answer{
+		margin: 5em auto;
+		width: 85%;
+	}
+
+
+	a#left {
+		float:none;
+		display: block;
+		width: 100%;
+		padding: 1.5% 0;
+		text-align: center;
+		font-size: 3em;
+		border-bottom: solid 2px #F1F3F2;
+	}
+	a#middle {
+		text-align: center;
+		margin: 0;
+    	padding: 1.5% 0;
+		width: 100%;
+		font-size: 2em;
+		border-bottom: solid 2px #F1F3F2;
+	}
+	a#right {
+		text-align: center;
+		margin: 0;
+		width: 100%;
+    	padding: 1.5% 0;
+		font-size: 2em;
+	}
+
+	header{
+		left:0;
+		width: 100%;
+		padding: 0;
+	}
+
+	h1 {
+		font-size: 3.5em;
+	    margin: 1.5em;
+	    text-align: center;
+	}
+
+	h3 {
+		font-size: 2em;
+		padding: 1em;
+	}
+
+	p{
+		font-size: 1.5em;
+		line-height: 1.8em;
+		padding: 1em;
+	}
 }
