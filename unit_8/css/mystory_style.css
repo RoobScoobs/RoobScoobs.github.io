@@ -121,9 +121,11 @@ div#pagewrap{
 		width: 70%;
 	}
 }
+
 @media only screen and (max-width: 865px) {
 	div#wrapper {
-		padding-top: 20em;
+		margin: 0;
+		padding-top: 33em;
 }
 	section.prompt_answer {
 		width: 65%;
@@ -147,7 +149,7 @@ div#pagewrap{
 	}
 	div#circle {
 		position: absolute;
-		top: -2em;
+		top: 10em;
 		left: 50%;
 		transform: translateX(-50%);
 		width: 20em;
@@ -168,50 +170,14 @@ div#pagewrap{
 		padding: 1em;
 		font-size: 1.2em;
 	}
+
 @media only screen and (max-width: 665px) {
 	div#wrapper {
-		padding-top: 25em;
-		margin: 10em auto;
-	}
-
-	div#circle {
-		top: 7em;
+		padding-top: 28em;
 	}
 	section.prompt_answer{
 		margin: 5em auto;
 		width: 85%;
-	}
-
-
-	a#left {
-		float:none;
-		display: block;
-		width: 100%;
-		padding: 1.5% 0;
-		text-align: center;
-		font-size: 3em;
-		border-bottom: solid 2px #F1F3F2;
-	}
-	a#middle {
-		text-align: center;
-		margin: 0;
-    	padding: 1.5% 0;
-		width: 100%;
-		font-size: 2em;
-		border-bottom: solid 2px #F1F3F2;
-	}
-	a#right {
-		text-align: center;
-		margin: 0;
-		width: 100%;
-    	padding: 1.5% 0;
-		font-size: 2em;
-	}
-
-	header{
-		left:0;
-		width: 100%;
-		padding: 0;
 	}
 
 	h1 {
@@ -229,5 +195,63 @@ div#pagewrap{
 		font-size: 1.5em;
 		line-height: 1.8em;
 		padding: 1em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	header {
+		left:0;
+		width: 100%;
+	}
+
+	section.prompt_answer {
+		margin: 5em auto;
+		width: 90%;
+	}
+
+	a#left {
+		width: 20%;
+	}
+
+	a#middle {
+		width: 40%;
+	}
+
+	a#right {
+		width: 40%;
+	}
+	h3 {
+		font-size: 1.5em;
+}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 401px) {
+	div#circle {
+		top: 14em;
+	}
+	div#wrapper {
+		padding-top: 31em;
+	}
+
+	a#left {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+}
+	a#middle {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	a#right {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
 	}
 }
