@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-size:16px;	
+	background-color: #F1F3F2;
+}
+
+div.wrapper {
+	position: relative;
+	width: 90%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+header {
+	top: 0;
+	width: 90%;
+	padding: 1em 1em;
+	position: fixed;
+	background: #FFC126;
+}
+
+a#left {
+	float: left;
+	width: 60%;
+	font-size: 2em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+a#middle {
+	float: left;
+	width: 20%;
+	text-align: right;
+	margin-top: 1.5em;
+    padding: 0 2em;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+a#right {
+	float:left;
+	width: 20%;
+	text-align: center;
+    margin-top: 1.5em;
+    padding: 0 2em;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+div#side-bar {
+	margin-top: 5.3em;
+	background-color: #fff;
+	width: 270px;
+	float: left;
+	position: fixed;
+}
+
+ a.track {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000;
+ 	padding: 1em;
+}
+
+div#article-container {
+	float: right;
+	width: 80%;
+	margin-top: 5em;
+}
+
+div#circle {
+	width: 23.5em;
+	height: 23.5em;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #000;
+	position: fixed;
+	top: 55%;
+    right: -8%;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: #FFC126;
+	height: 100%;
+	margin: 2.5em 1em;
+}
+
+article {
+	width: 60%;
+	margin-left: 7em;
+	padding-top: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 1.5em 0;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+blockquote {
+	width: 70%;
+	margin: 1em auto;
+	background-color: #fff;
+	padding: 1em;
+}
+
+a.external {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
+
+ol {
+	padding: 1.5em;
+}
+
+br {
+	line-height: 2.5em;
+}
+
+span {
+	font-style: italic;
+}
+
+span.notext {
+	font-style: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+a#dl {
+	color: #000;
+}
+.clearfix:after {
+	height:0;
+	font-size:0;
+	visibility: hidden;
+	content: "?";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 1190px) {
+	div#circle {
+		width: 20em;
+		height: 20em;
+		top: 58%;
+	}
+	h1 {
+		font-size: 3.2em;
+		margin: 2.5em 0.5em;
+	}
+}
+
+@media only screen and (max-width: 1065px) {
+	div#circle {
+		position: absolute;
+		top: 8em;
+		left: 400px;
+		width: 20em;
+		height: 20em;
+		z-index: -1;
+	}
+	div#article-container {
+		float: none;
+		width: 100%;
+		padding-top: 30em;
+		padding-left: 250px;
+	}
+
+	div#side-bar {
+		margin-top: .25em;
+	}
+
+	h1{
+		font-size: 3.5em;
+	    padding: 2em 0;
+	    margin: 0;
+	    text-align: center;
+	}
+
+	img {
+		visibility: hidden;
+	}
+}
+@media only screen and (max-width: 875px) {
+	div#circle {
+		left: 350px;
+	}
+
+	a#left {
+		width:40%;
+	}
+
+	a#middle {
+		font-size: 1em;
+		margin-top: 1em;
+		padding: 0;
+		width: 30%;
+	}
+
+	a#right {
+		font-size: 1em;
+		margin-top: 1em;
+		padding: 0;
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	div#side-bar {
+		float: none;
+		width: 90%;
+		margin: 0;
+	}
+
+	div#article-container {
+		padding-top: 30em;
+		padding-left: 0;
+	}
+
+	div#circle {
+		top: 12em;
+		left: 25%;
+	}
+
+	article {
+		width: 85%;
+    	margin: 0 auto;
+}
+
+	a.track {
+		display: inline;
+		float: left;
+		width: 50%;
+		height: 50px;
+		padding: 1em 0;
+		text-align: center;
+	}
+
+	i.fa-fw {
+		display: block;
+		width: 100%;
+	}
+
+	i.fa {
+		font-size: 1.5em;
+	}
+	span.notext {
+		visibility: hidden;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	p{
+		font-size: 1.2em;
+		line-height: 1.8em;
+	}
+	
+	li {
+		font-size: 1.2em;
+		padding: .3em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	header {
+		left:0;
+		width: 100%;
+	}
+
+	div#side-bar {
+		left: 0;
+		width: 100%;
+	}
+
+	div#circle {
+		left: 18%;
+	}
+	
+	a#left {
+		width: 20%;
+	}
+
+	a#middle {
+		width: 40%;
+	}
+
+	a#right {
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 401px) {
+	a#left {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+}
+
+	a#middle {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+
+	a#right {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	div#side-bar {
+		top: 160px;
+	}
+
+	div#circle {
+		top: 16em;
+		left: 5%;
+	}
+	div#article-container {
+		padding-top: 35em;
+	}
+}

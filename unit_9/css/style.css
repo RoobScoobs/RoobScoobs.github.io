@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;	
+}
+section#splash {
+	background-image: url("../images/251h.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 980px;
+	text-align: center;
+	position: relative;
+}
+
+div#splash-content  {
+	z-index: 3;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
+div#overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+header#quote {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.25em;
+	padding: 1em; 
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+#presents {
+	font-size: 2em;
+	font-variant: small-caps;
+	word-spacing: 8px;
+	padding: 7em 0 3em;
+}
+
+#fleuve {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 4.5em;
+
+}
+
+#fleuve a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+#para {
+	font-size: 2em;
+	width: 22em;
+	margin:1.5em auto;
+	line-height: 1.5em;
+
+}
+
+#button {
+	display:block;
+	border: 2px solid #000;
+	margin: auto;
+	width: 13em;
+	padding: 1.5em 0;
+	font-weight: 200;
+	text-decoration: none;
+	color: #000;
+}
+
+#button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+div#vcu-brandcenter {
+	background: #F8B801;
+    color: #fff;
+    text-align: center;
+}
+
+div#vcu-brandcenter h2 {
+	font-size: 3.5em;
+	padding: 1em 0;
+}
+
+nav a {
+	float: left;
+	width: 50%;
+}
+
+a.split-column {
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+	padding: 5em;
+	outline: 1px solid #000;
+}
+
+a.split-column:hover{
+	background-color: #000;
+	color: #F8B801;
+}
+
+a#bottom-section {
+	width: 100%;
+	border-bottom: 1px solid #000;
+
+}
+
+footer {
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 200px;
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+
+}
