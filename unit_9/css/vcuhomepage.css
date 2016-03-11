@@ -111,7 +111,7 @@ span {
 }
 
 span#click {
-	top: 95%;
+	top: 100%;
     position: absolute;
 }
 
@@ -192,5 +192,9 @@ footer a {
 @media only screen and (max-width: 430px) {
 	label {
 		font-size: 8em;
+	}
+
+	span#click {
+		top: 120%;
 	}
 }
